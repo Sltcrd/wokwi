@@ -1,13 +1,21 @@
 # Enlaces del prototipo Wokwi
 
+## Simulación personal de Sltcrd
+
+**[Abrir mi simulación en Wokwi](https://wokwi.com/projects/481154773977140225)**
+
+URL: https://wokwi.com/projects/481154773977140225
+
+Este enlace fue proporcionado por Sltcrd después de guardar una copia del proyecto en su cuenta de Wokwi (19 de noviembre de 2026).
+
 ## Simulación original del profesor
 
-https://wokwi.com/projects/475731993653242881
+[Abrir la simulación original](https://wokwi.com/projects/475731993653242881)
 
-Este enlace se extrajo de `wokwi-project.txt` incluido en el ZIP facilitado por el estudiante.
+URL: https://wokwi.com/projects/475731993653242881
 
-## Copia en la cuenta personal de Sltcrd
+Este enlace proviene del archivo `wokwi-project.txt` incluido en el ZIP del profesor.
 
-**Pendiente de guardar en Wokwi.** No existe todavía un enlace verificado de la copia personal.
+## Nota
 
-Para obtenerlo: inicia sesión en Wokwi, abre el enlace original y usa **Save a Copy** (o la función equivalente), copia la URL de la nueva simulación y reemplaza este apartado con el enlace generado.
+Los archivos `diagram.json`, `sketch.ino` y `libraries.txt` en este repositorio son la copia del ZIP facilitado por el estudiante. El enlace personal es el que se debe utilizar para abrir y modificar la simulación desde otros dispositivos.
