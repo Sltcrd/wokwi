@@ -1,12 +1,20 @@
 # Sensor de distancia vehicular — Wokwi
 
-Proyecto basado en los archivos entregados por el profesor de Desarrollo de Soluciones IoT.
+Proyecto basado en los archivos entregados por el profesor de Desarrollo de Soluciones IoT. Los archivos se conservaron en este repositorio como respaldo.
 
-## Simulación original
+## 🚀 Abrir mi simulación en Wokwi
 
-[Abrir la simulación original en Wokwi](https://wokwi.com/projects/475731993653242881)
+**[Simulación personal de Sltcrd — Abrir en Wokwi](https://wokwi.com/projects/481154773977140225)**
 
-> Este enlace proviene del archivo `wokwi-project.txt` incluido en el ZIP del profesor. **No corresponde todavía a una copia guardada en la cuenta Wokwi de Sltcrd.**
+Enlace: https://wokwi.com/projects/481154773977140225
+
+Este es el enlace personal compartido por Sltcrd después de guardar una copia en Wokwi.
+
+## Simulación original del profesor
+
+[Abrir la simulación original del profesor](https://wokwi.com/projects/475731993653242881)
+
+> El enlace original proviene de `wokwi-project.txt` incluido en el ZIP del profesor y es diferente de la copia personal.
 
 ## Archivos del proyecto
 
@@ -14,13 +22,12 @@ Proyecto basado en los archivos entregados por el profesor de Desarrollo de Solu
 - `sketch.ino`: lectura de distancias FL/FR/BL/BR y salida LCD.
 - `libraries.txt`: biblioteca LiquidCrystal I2C.
 - `wokwi-project.txt`: enlace original de la simulación.
-- `ENLACE_WOKWI.md`: enlaces y estado de publicación de la copia personal.
+- `ENLACE_WOKWI.md`: enlaces de la simulación personal y del proyecto original.
 
-## Para guardar una copia propia
+## Acceso desde la universidad
 
-1. Inicia sesión en Wokwi.
-2. Abre el enlace original de la simulación.
-3. Utiliza la opción **Save a Copy** (guardar una copia, si aparece).
-4. Copia la URL de tu nuevo proyecto y colócala en `ENLACE_WOKWI.md`.
+1. Abre el enlace de la simulación personal desde el celular o la computadora.
+2. Inicia sesión en Wokwi con la cuenta donde guardaste la copia si necesitas editarla.
+3. Ejecuta la simulación desde Wokwi.
 
 Repositorio fuente indicado por el usuario: https://github.com/upc-pre-202620-si572-8735-IoT/Sensor-de-distancia-vehicular
