@@ -1,0 +1,1 @@
+# Uses ESP32 Arduino core only (WiFi.h).
