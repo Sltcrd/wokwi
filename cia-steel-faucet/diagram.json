@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "author": "IoT Development Team",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp32",
+      "top": 35,
+      "left": 80,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic",
+      "top": -100,
+      "left": 365,
+      "attrs": {
+        "distance": "30"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "blueLed",
+      "top": 112,
+      "left": 395,
+      "attrs": {
+        "color": "blue",
+        "label": "Proximity detected"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "ledResistor",
+      "top": 173,
+      "left": 382,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-relay-module",
+      "id": "waterRelay",
+      "top": 240,
+      "left": 360,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "esp32:5V",
+      "ultrasonic:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp32:GND.1",
+      "ultrasonic:GND",
+      "black",
+      []
+    ],
+    [
+      "esp32:5",
+      "ultrasonic:TRIG",
+      "green",
+      []
+    ],
+    [
+      "esp32:17",
+      "ultrasonic:ECHO",
+      "yellow",
+      []
+    ],
+    [
+      "esp32:18",
+      "blueLed:A",
+      "blue",
+      []
+    ],
+    [
+      "blueLed:C",
+      "ledResistor:1",
+      "green",
+      []
+    ],
+    [
+      "ledResistor:2",
+      "esp32:GND.2",
+      "black",
+      []
+    ],
+    [
+      "esp32:5V",
+      "waterRelay:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp32:GND.1",
+      "waterRelay:GND",
+      "black",
+      []
+    ],
+    [
+      "esp32:23",
+      "waterRelay:IN",
+      "purple",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
