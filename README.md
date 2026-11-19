@@ -1,33 +1,22 @@
-# Sensor de distancia vehicular — Wokwi
+# Proyectos IoT — Wokwi
 
-Proyecto basado en los archivos entregados por el profesor de Desarrollo de Soluciones IoT. Los archivos se conservaron en este repositorio como respaldo.
+Repositorio de Sltcrd con proyectos de simulación Wokwi.
 
-## 🚀 Abrir mi simulación en Wokwi
+## Examen PC2 — Cia Steel Faucet (Moen, Inc.)
 
-**[Simulación personal de Sltcrd — Abrir en Wokwi](https://wokwi.com/projects/481154773977140225)**
+**[Ver el nuevo prototipo ESP32 y sus archivos](cia-steel-faucet/README.md)**
 
-Enlace: https://wokwi.com/projects/481154773977140225
+- [Diagrama del grifo inteligente](cia-steel-faucet/diagram.json)
+- [Sketch OOP ESP32](cia-steel-faucet/sketch.ino)
+- [Pregunta 1 — Application Service Layer Requirements](cia-steel-faucet/PREGUNTA_1.md)
+- [Estado de enlaces Wokwi](ENLACE_WOKWI.md)
 
-Este es el enlace personal compartido por Sltcrd después de guardar una copia en Wokwi.
+**El nuevo enlace de simulación Wokwi todavía está pendiente de guardar en la cuenta personal.** El proyecto ya se encuentra disponible en GitHub con los archivos y el código. El enlace de abajo NO es el nuevo prototipo.
 
-## Simulación original del profesor
+## Proyecto previo — Sensor de distancia vehicular
 
-[Abrir la simulación original del profesor](https://wokwi.com/projects/475731993653242881)
+**[Abrir simulación personal del proyecto vehicular](https://wokwi.com/projects/481154773977140225)**
 
-> El enlace original proviene de `wokwi-project.txt` incluido en el ZIP del profesor y es diferente de la copia personal.
+Simulación original del profesor: https://wokwi.com/projects/475731993653242881
 
-## Archivos del proyecto
-
-- `diagram.json`: conexiones de Arduino Uno, 4 sensores HC-SR04 y LCD I2C 20x4.
-- `sketch.ino`: lectura de distancias FL/FR/BL/BR y salida LCD.
-- `libraries.txt`: biblioteca LiquidCrystal I2C.
-- `wokwi-project.txt`: enlace original de la simulación.
-- `ENLACE_WOKWI.md`: enlaces de la simulación personal y del proyecto original.
-
-## Acceso desde la universidad
-
-1. Abre el enlace de la simulación personal desde el celular o la computadora.
-2. Inicia sesión en Wokwi con la cuenta donde guardaste la copia si necesitas editarla.
-3. Ejecuta la simulación desde Wokwi.
-
-Repositorio fuente indicado por el usuario: https://github.com/upc-pre-202620-si572-8735-IoT/Sensor-de-distancia-vehicular
+Los archivos originales del proyecto vehicular se mantienen en la raíz del repositorio (`sketch.ino`, `diagram.json`, `libraries.txt`, `wokwi-project.txt`).
